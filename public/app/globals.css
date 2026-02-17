@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color-primary-100: #FDE1D3;
+  --color-primary-200: #FABFA3;
+  --color-primary-300: #F79D73;
+  --color-primary-400: #F57B42;
+  --color-primary-500: #F25912;
+  --color-primary-600: #C6460B;
+  --color-primary-700: #963508;
+  --color-primary-800: #662405;
+  --color-primary-900: #351303;
+
+  --color-technical-green: #347928;
+  --color-technical-red: #DC0E0E;
+
+  --color-neutral-white: #F5F5F5;
+  --color-neutral-black: #0C0C0C;
+
+  --font-family-primary: Raleway, sans-serif;
+  --font-family-secondary: Oswald, sans-serif;
+  --font-family-tertiary: Lilex, monospace;
+}
+
+body {
+  background: var(--color-neutral-black);
+}
+
+main {
+  max-width: 1344px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 90px);
+  gap: 24px;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

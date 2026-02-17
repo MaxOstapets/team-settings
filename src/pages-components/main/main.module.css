@@ -1,0 +1,57 @@
+.main {
+    margin-top: 213px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    gap: 224px;
+    grid-column: span 12;
+}
+
+.descriptor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.title {
+    font-family: var(--font-family-tertiary);
+    font-weight: bold;
+    font-size: 60px;
+    color: var(--color-primary-500);
+}
+
+.description {
+    font-family: var(--font-family-primary);
+    font-size: 38px;
+    color: var(--color-neutral-white);
+    text-align: center;
+}
+
+.aboutUsNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 5 / 9
+}
+
+.moreAboutUs {
+    color: var(--color-neutral-white);
+    font-family: var(--font-family-primary);
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
