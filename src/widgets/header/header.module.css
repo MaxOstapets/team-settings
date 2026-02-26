@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    grid-column: 1 / -1;
 }
 
 .logo {

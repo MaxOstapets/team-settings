@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+  /* COLOR PALLETE */
   --color-primary-100: #FDE1D3;
   --color-primary-200: #FABFA3;
   --color-primary-300: #F79D73;
@@ -17,9 +18,15 @@
   --color-neutral-white: #F5F5F5;
   --color-neutral-black: #0C0C0C;
 
+  /* FONTS */
   --font-family-primary: Raleway, sans-serif;
   --font-family-secondary: Oswald, sans-serif;
   --font-family-tertiary: Lilex, monospace;
+
+  /* LAYOUT */
+  --grid: repeat(12, 90px);
+  --max-width: 1344px;
+  --grid-gap: 24px;
 }
 
 body {
@@ -27,10 +34,10 @@ body {
 }
 
 main {
-  max-width: 1344px;
+  max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(12, 90px);
+  grid-template-columns: var(--grid);
   gap: 24px;
   overflow-x: hidden;
 }
