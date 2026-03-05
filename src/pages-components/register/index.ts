@@ -1,2 +1,1 @@
-export { MainPage } from "./main"
 export { RegisterPage } from "./register"
