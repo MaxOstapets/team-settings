@@ -1,0 +1,26 @@
+.input {
+    display: flex;
+    padding: 20px;
+    border: 2px solid var(--color-primary-500);
+    box-shadow:
+        inset 6px 6px 10.4px rgba(242, 89, 18, 0.2),
+        inset -6px -6px 10.4px rgba(242, 89, 18, 0.2);
+}
+
+.field {
+    font-family: var(--font-family-primary);
+    font-weight: bold;
+    font-size: 20px;
+    background: none;
+    color: var(--color-primary-500);
+    width: 100%;
+    border: none;
+}
+
+.field::placeholder {
+    color: rgba(249, 89, 18, 0.5);
+}
+
+.field:focus {
+    outline: none;
+}

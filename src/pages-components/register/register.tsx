@@ -5,7 +5,7 @@ import { Button } from "@/shared"
 export const RegisterPage = () => {
     return (
         <>
-            {/* <Image src="./images/arrow.svg" alt="arrow" width={59} height={52} style={{ position: "absolute" }} /> */}
+            <Image src="./images/arrow.svg" alt="arrow" width={59} height={52} style={{ position: "absolute", top: "5%", left: "2%" }} />
             <div className={s.main}>
                 <section className={s.description}>
                     <span className={s.text}>Що ж. Почнемо реєстрацію. Введіть будь ласка електронну адресу та пароль, або зареєструйтесь через Google</span>

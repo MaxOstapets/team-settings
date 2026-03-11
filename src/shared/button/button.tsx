@@ -11,14 +11,9 @@ interface IButton {
 
 export const Button: React.FC<IButton> = ({ text, color, fill, border, cN, type }) => {
     return (
-        <button type={type} className=
-            {`
-                ${color === "primary" ? s.primary : ""}
-                ${fill ? s.primaryFill : s.primaryText}
-                ${border ? s.primaryBorder : ""}
-                ${cN}
-            `}>
-            {text}
-        </button>
+        color === "primary" ?
+            <button type={type} className={`${s.primary} ${fill ? s.primaryFill : s.primaryText} ${border ? s.primaryBorder : ""} ${cN}`}>{text}</button>
+            :
+            <button type={type} className={`${s.secondary} ${fill ? s.secondaryFill : s.secondaryText} ${border ? s.secondaryBorder : ""} ${cN}`}>{text}</button>
     )
 }

@@ -4,7 +4,8 @@
     flex-direction: column;
     gap: 50px;
     text-align: center;
-    margin: 0 auto;
+    margin: 60px auto;
+    overflow-y: none;
 }
 
 .description {

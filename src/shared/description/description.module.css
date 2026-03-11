@@ -1,0 +1,6 @@
+.description {
+    font-family: var(--font-family-primary);
+    color: var(--color-neutral-white);
+    font-size: 38px;
+    text-align: center;
+}
