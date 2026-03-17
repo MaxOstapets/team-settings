@@ -1,0 +1,30 @@
+.join {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: var(--grid);
+    gap: var(--grid-gap);
+    max-width: var(--max-width);
+    margin: 100px 0;
+    align-items: center;
+}
+
+.form {
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.descriptor {
+    grid-column: 7/13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.input,
+.button {
+    width: 100%;
+}
