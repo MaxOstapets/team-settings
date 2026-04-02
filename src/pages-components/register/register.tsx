@@ -26,7 +26,7 @@ export const RegisterPage = () => {
                             <Image src="./images/google.svg" alt="google" width={20} height={20} />
                         </button>
                     </div>
-                    <Button text="Підтвердити" color="primary" fill={true} cN={s.confirm} type="button" />
+                    <Button text="Підтвердити" color="primary" fill={true} cN={s.confirm} type="button" size="large" />
                 </form>
             </div>
         </>

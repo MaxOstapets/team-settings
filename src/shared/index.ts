@@ -1,3 +1,1 @@
-export { Button } from "./button"
-export { Description } from "./description"
-export { Input } from "./input"
+export { Button, Description, Input, Search } from "./ui"

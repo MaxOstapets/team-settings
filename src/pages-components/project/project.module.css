@@ -1,11 +1,6 @@
-.team {
-    grid-column: span 12;
+.main {
     display: grid;
     grid-template-columns: var(--grid);
     max-width: var(--max-width);
     gap: var(--grid-gap);
-}
-
-.leaveTheTeam {
-    grid-column: 10/13;
 }

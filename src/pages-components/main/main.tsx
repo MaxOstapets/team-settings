@@ -12,8 +12,8 @@ export const MainPage = () => {
                         <p className={s.description}>це сервіс, який допоможе покращити організацію роботу. Тут можна бути лідером, створювати, команди проекти, давати таски та кайфувати)</p>
                     </div>
                     <div className={s.buttons}>
-                        <Button text="створити команду" color="primary" fill={true} type="submit" />
-                        <Button text="приєднатися до команди" color="primary" fill={true} type="submit" />
+                        <Button text="створити команду" color="primary" fill={true} type="submit" size="large" />
+                        <Button text="приєднатися до команди" color="primary" fill={true} type="submit" size="large" />
                     </div>
                 </section>
                 <div className={s.aboutUsNav}>

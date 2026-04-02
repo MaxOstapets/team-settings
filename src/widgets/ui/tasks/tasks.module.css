@@ -1,0 +1,89 @@
+.tasks {
+    grid-column: 4/13;
+    border: 2px solid var(--color-primary-500);
+    height: 760px;
+    padding: 40px;
+    box-shadow:
+        inset 7px 7px 20px rgba(242, 89, 18, 40%),
+        inset -7px -7px 20px rgba(242, 89, 18, 40%);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 46px;
+}
+
+.hat {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.projectsTitle {
+    font-family: var(--font-family-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-neutral-white);
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 0;
+    border-top: 2px solid var(--color-primary-500);
+    border-bottom: 2px solid var(--color-primary-500);
+    color: var(--color-neutral-white);
+    align-items: end;
+}
+
+.taskHat {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taskTitle {
+    font-family: var(--font-family-secondary);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.deadline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.deadlineTitle {
+    font-family: var(--font-family-secondary);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.date {
+    font-family: var(--font-family-primary);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.number {
+    font-family: var(--font-family-secondary);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: var(--font-family-primary);
+    font-weight: normal;
+    font-size: 17px;
+    width: 100%;
+}

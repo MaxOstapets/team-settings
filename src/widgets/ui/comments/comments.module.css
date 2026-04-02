@@ -1,0 +1,71 @@
+.comments {
+    grid-column: span 12;
+    border: 2px solid var(--color-primary-500);
+    padding: 40px;
+    background: var(--color-neutral-black);
+    box-shadow:
+        inset 10px 10px 20px rgba(242, 89, 18, 40%),
+        inset -10px -10px 20px rgba(242, 89, 18, 40%);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 46px;
+}
+
+.comHat {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+.comTitle {
+    color: var(--color-neutral-white);
+    font-family: var(--font-family-primary);
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.comInput {
+    width: 700px;
+}
+
+.comList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.comment {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    border-top: 2px solid var(--color-primary-500);
+    border-bottom: 2px solid var(--color-primary-500);
+    padding: 20px 0;
+    width: 100%;
+    color: var(--color-neutral-white);
+}
+
+.comText {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.comName {
+    font-family: var(--font-family-secondary);
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.comContext {
+    font-family: var(--font-family-primary);
+    font-size: 22px;
+    letter-spacing: 1px;
+}

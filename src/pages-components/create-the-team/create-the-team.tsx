@@ -13,10 +13,10 @@ export const CreateTheTeamPage = () => {
                     </div>
                     <div className={s.generator}>
                         <div className={s.code}>"*_*"</div>
-                        <Button text="Згенерувати" type="submit" color="secondary" fill={true} cN={`${s.generate}`} />
+                        <Button text="Згенерувати" type="submit" color="secondary" fill={true} cN={`${s.generate}`} size="medium" />
                     </div>
                 </section>
-                <Button text="Створити команду" type="submit" color="primary" fill={true} cN={`${s.submit}`} />
+                <Button text="Створити команду" type="submit" color="primary" fill={true} cN={`${s.submit}`} size="large" />
             </form>
         </div >
     )

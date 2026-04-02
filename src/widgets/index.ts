@@ -1,2 +1,1 @@
-export { Header } from "./header"
-export { Footer } from "./footer"
+export { Footer, Header, Descriptor, Members, Projects, Comments, Tasks } from "./ui"

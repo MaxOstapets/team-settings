@@ -1,0 +1,7 @@
+export { Footer } from "./footer"
+export { Header } from "./header"
+export { Descriptor } from "./descriptor"
+export { Members } from "./members"
+export { Projects } from "./projects"
+export { Comments } from "./comments"
+export { Tasks } from "./tasks"

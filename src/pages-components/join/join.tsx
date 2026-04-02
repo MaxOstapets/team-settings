@@ -7,7 +7,7 @@ export const JoinPage = () => {
         <div className={s.join}>
             <form className={s.form}>
                 <Input type="text" placeholder="код команди" id="teamCode" icon={false} cN={`${s.input}`} />
-                <Button text="Приєднатися" type="submit" color="primary" fill={true} cN={`${s.button}`} />
+                <Button text="Приєднатися" type="submit" color="primary" fill={true} cN={`${s.button}`} size="large" />
             </form>
             <section className={s.descriptor}>
                 <Description text="Введіть код команди та подивіться на анімацію (просто так)" />
