@@ -1,0 +1,97 @@
+.main {
+    display: grid;
+    grid-template-columns: var(--grid);
+    max-width: var(--max-width);
+    gap: var(--grid-gap);
+}
+
+.user {
+    grid-column: span 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border: 2px solid var(--color-primary-500);
+    color: var(--color-neutral-white);
+    box-shadow:
+        inset 8px 8px 8px rgba(242, 89, 18, 40%),
+        inset -8px -8px 8px rgba(242, 89, 18, 40%);
+    padding: 30px;
+    margin-bottom: 46px;
+}
+
+.description {
+    display: flex;
+    gap: 30px;
+    align-items: start;
+}
+
+.aboutUser {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 10px 0 0 0;
+}
+
+.name {
+    font-family: var(--font-family-tertiary);
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.biography {
+    font-family: var(--font-family-primary);
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.widgets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: span 12;
+    gap: var(--grid-gap);
+    margin-bottom: 46px;
+}
+
+.widget {
+    height: 218px;
+    color: var(--color-neutral-white);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    align-items: center;
+    gap: 30px;
+}
+
+.widgetTitle {
+    font-family: var(--font-family-tertiary);
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.widgetCount {
+    font-family: var(--font-family-secondary);
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.tasksCount {
+    border: 2px solid var(--color-primary-700);
+    box-shadow:
+        inset 8px 8px 8px rgba(150, 53, 8, 60%),
+        inset -8px -8px 8px rgba(150, 53, 8, 60%);
+}
+
+.teamsCount {
+    border: 2px solid var(--color-primary-400);
+    box-shadow:
+        inset 8px 8px 8px rgba(245, 123, 66, 40%),
+        inset -8px -8px 8px rgba(245, 123, 66, 60%);
+}
+
+.projectsCount {
+    border: 2px solid var(--color-primary-800);
+    box-shadow:
+        inset 8px 8px 8px rgba(102, 36, 5, 60%),
+        inset -8px -8px 8px rgba(102, 36, 5, 60%);
+}
