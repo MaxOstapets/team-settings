@@ -1,0 +1,105 @@
+.projects {
+    grid-column: 1/7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    border: 2px solid var(--color-primary-600);
+    box-shadow:
+        inset 8px 8px 8px rgba(198, 70, 11, 50%),
+        inset -8px -8px 8px rgba(198, 70, 11, 50%);
+    height: 870px;
+    overflow: auto;
+}
+
+.hat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.title {
+    font-family: var(--font-family-tertiary);
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--color-neutral-white);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-neutral-white);
+    background: var(--color-primary-600);
+    width: 255px;
+}
+
+.projectImage {
+    width: 100%;
+}
+
+.ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 3px;
+    list-style: none;
+}
+
+.aboutProject {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 18px;
+    gap: 24px;
+}
+
+.projectTitle {
+    font-family: var(--font-family-secondary);
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.membersTitle {
+    font-family: var(--font-family-secondary);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.countOfMembers {
+    font-family: var(--font-family-primary);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.state,
+.date {
+    font-family: var(--font-family-primary);
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.checkButton {
+    width: 100%;
+}

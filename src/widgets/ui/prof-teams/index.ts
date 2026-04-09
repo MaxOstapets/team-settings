@@ -1,0 +1,1 @@
+export { ProfTeams } from "./prof-teams"

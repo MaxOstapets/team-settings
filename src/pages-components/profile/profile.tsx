@@ -1,6 +1,7 @@
 import s from "./profile.module.css"
 import Image from "next/image"
-import { Button, Search } from "@/shared"
+import { Button } from "@/shared"
+import { ProfProjects, ProfTeams } from "@/widgets"
 
 export const ProfilePage = () => {
     return (
@@ -29,6 +30,8 @@ export const ProfilePage = () => {
                     <p className={s.widgetCount}>10</p>
                 </div>
             </section>
+            <ProfProjects />
+            <ProfTeams />
         </div>
     )
 }

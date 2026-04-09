@@ -1,0 +1,1 @@
+export { ProfProjects } from "./prof-projects"
